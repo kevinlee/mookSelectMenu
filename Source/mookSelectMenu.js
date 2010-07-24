@@ -1,22 +1,18 @@
 /*
 ---
-description: Element class, Elements class, and basic dom methods.
+description: Creates a HTML select menu that triggers events so to act as simple menu.
 
 license: MIT-style
 
 authors:
-- Jimmy Dean
-- Buck Kingsley
+- Kevin A. Lee (http://www.71khz.com)
 
 requires:
-- localComponent1
-- [localComponent2, localComponent3]
-- externalPackage1/tag: component4
-- externalPackage2/tag: [component1, component2]
+- core/1.2.1:   '*'
 
-provides: [Element, Elements, $, $$]
+provides: 
+- mookSelectMenu
 
-...
 */
 var mookSelectMenu = new Class({
     Implements: [Options, Events],
@@ -45,7 +41,7 @@ var mookSelectMenu = new Class({
             new Element('option', {
                 id: 'none',
                 value: 'none',
-                disabled: 'disabled', // doesn't work in IE6/7
+                disabled: 'disabled', // IE8+
                 text: this.title
             }),
             this.createOptions()

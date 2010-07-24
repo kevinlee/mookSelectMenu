@@ -1,7 +1,7 @@
-name: Plugin Name
+name: mookSelectMenu
 author: akevinlee
 category: Interface
-tags: [animation, canvas]
-#docs: http://url.to.docs
-#demo: http://url.to.demo
-#current: 0.5
+tags: [menu, element]
+#demo: http://jsfiddle.net/HKbgj/5/
+#docs: http://www.71khz.com/mookSelectMenu
+#current: 0.1
