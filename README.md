@@ -20,9 +20,6 @@ Then instantiate the class and pass your menu options in:
         {id: 'action-2', text: 'Second action'},
         {id: 'action-3', text: 'Third action'}
     ],
-	{
-        title: 'Select something below...'
-    }, 
     {
         onSelect: function(option) {
             switch (option) {
@@ -44,4 +41,4 @@ Then instantiate the class and pass your menu options in:
         }
     }
 
-In this example, 'title' is included but is optional and will default to 'Select an Action...'
+In this example the "title" of the menu will default to 'Select an Action...'
