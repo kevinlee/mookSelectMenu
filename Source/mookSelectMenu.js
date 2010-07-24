@@ -1,18 +1,12 @@
 /*
 ---
 description: Creates a HTML select menu that triggers events so to act as simple menu.
-
 license: MIT-style
-
-authors:
-- Kevin A. Lee (http://www.71khz.com)
-
-requires:
-- core/1.2.1:   '*'
-
-provides: 
-- mookSelectMenu
-
+authors: [Kevin A. Lee]
+provides: [mookSelectMenu]
+requires: 
+  core/1.2.4: '*'
+...
 */
 var mookSelectMenu = new Class({
     Implements: [Options, Events],
